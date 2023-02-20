@@ -1,0 +1,56 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.App a {
+  color: #07c6fb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+.card {
+  text-overflow: ellipsis;
+  min-height: 50vh;
+  margin-block: 5px;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card-title {
+  font-size: 0.9rem;
+  height: 100px;
+}
+.card-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1rem;
+}
+
+.card-img,
+.card-img-top {
+  width: 100%;
+  height: 20vh;
+}
+
+#detail-img {
+  height: 70vh;
+  width: 100%;
+}
